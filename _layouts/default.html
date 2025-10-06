@@ -89,5 +89,38 @@
         </div>
       </div>
     </section>
+
+    <section class="section">
+      <div class="container">
+        <h3 class="section-title">Code of Conduct</h3>
+        <div class="max-w-3xl">
+            {% include_relative CODE_OF_CONDUCT.md %}
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta" id="donate">
+      <div class="container">
+        <h3 class="section-title">How to Contribute</h3>
+        {% include_relative CONTRIBUTING.md %}
+        <a href="https://github.com/garyseconomics/faq"><button class="btn btn-primary btn-lg">GITHUB</button></a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div>
+            © <script>document.write(new Date().getFullYear())</script> Gary's Economics FAQ Authors. <a href="https://creativecommons.org/licenses/by-sa/4.0/">Some rights reserved</a>.
+          </div>
+          <div class="footer-links">
+            <!-- <a href="#">Privacy Policy</a> -->
+            <!-- <a href="#">Terms of Service</a> -->
+            <a class="editthispage" href="https://github.com/garyseconomics/faq/blob/gh-pages{{ page.url | replace: '.html', '.md' }}" target="_blank">Edit this page</a>
+            <a href="https://www.wealtheconomics.org/contact/">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
