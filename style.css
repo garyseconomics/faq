@@ -45,7 +45,7 @@ footer{background:#1e3a8a;color:#fff;padding:2rem 0}
 .footer-links a{color:#fff;text-decoration:none;transition:color 0.3s}
 .footer-links a:hover{color:#ec4899}
 .section-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:2rem;flex-wrap:wrap;gap:1rem}
-.section-title{font-size:1.875rem;font-weight:900;color:#1e3a8a}
+.section-title{font-size:1.875rem;font-weight:900;color:#1e3a8a;text-transform:uppercase;}
 .text-primary{color:#1e3a8a}
 .btn-link{background:none;border:none;color:#1e3a8a;text-decoration:none;font-weight:700}
 .max-w-4xl{max-width:56rem;margin:0 auto}
