@@ -1,18 +1,33 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+  <!-- Start Jekyll SEO fun -->
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
-
+    <meta name="generator" content="Jekyll via Github Pages" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="{{ site.description }}" />
+    <meta property="og:description" content="{{ site.description }}" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-</head>
-<body>
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="{{ site.description }}" />
+    <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"WebSite","description":"site.description","headline":"{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}","name":"faq","url":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"}
+    </script>
+  <!-- End Jekyll SEO fun -->
+
+    <link rel="stylesheet" href="/faq/assets/css/style.css">
+
+  </head>
+  <body>
 
 {{ content }}
 
-</body>
+  </body>
 </html>
