@@ -1,8 +1,16 @@
-# faq.garyseconomics.com
+# Gary's Economics Frequently Asked Questions
 
-This is an experiment to set up a part of Gary's web presence for people who want to learn more about his ideas.
+This is Frequently Asked Questions (FAQ) page made by the community around the [youtu.be/@garyseconomics](https://www.youtube.com/@garyseconomics) channel.
+You can contribute both Questions and Answers.
 
-This Github project is a FAQ (Frequently Asked Questions) page, to which the community can contribute both Questions and Answers.
+# Questions
+
+## Where is Gary's Masters Thesis?
+
+(This is an example question to get the FAQ Project started.)
+Currently this is available to read online at [wealtheconomics.org/unithesis](https://www.wealtheconomics.org/unithesis/) and as a [PDF download](https://www.wealtheconomics.org/wp-content/uploads/2023/03/Stevenson-2019.pdf)
+
+# Contributing
 
 ## How to Contribute
 
@@ -10,7 +18,7 @@ If you have a question you wish had an answer that was easy to find and link to,
 You and the project community will discuss the topic and develop an answer.
 The successful end of this process is finalizing an answer using the github Pull Request process to update the website FAQ page.
 
-If you are a web developer and can help improve the site, please post an issue with your idea - or make a pull request directly.
+If you are a web developer and can help improve the site, please [post an issue](https://github.com/garyseconomics/faq/issues/new) with your idea - or make a pull request directly.
 
 ## Code of Conduct
 
