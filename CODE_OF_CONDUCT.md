@@ -1,4 +1,4 @@
-# Code of Conduct
+### Code of Conduct
 
 Please be extra vigilant of spammers, scammers, and fake accounts, with usernames such as `garyeconomics` or `.garyseconomics` claiming to be one of the admins or Gary himself.
 If you have any further queries, or should you be contacted by any accounts like this, please notify a staff member using the official contact form at [wealtheconomics.org/contact](https://www.wealtheconomics.org/contact)
